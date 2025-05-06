@@ -18,7 +18,7 @@ A fully functional full-stack MERN application originally built with a RESTful A
 - dotenv for environment configuration
 
 ## Deployed:
-[Check the live application here](https://book-search-app-ft8h.onrender.com)
+[Check the live application here]([https://book-search-app-ft8h.onrender.com](https://book-search-app-fullstack.onrender.com/))
 
 
 ## Screenshot
