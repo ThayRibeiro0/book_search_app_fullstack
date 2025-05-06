@@ -8,12 +8,18 @@
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "concurrently \"cd server && npm run build\" \"cd client && npm run build\"",
-    "render-build":"npm install && npm run build"
+    "render-build": "npm install && npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/mongoose": "^5.11.97",
     "concurrently": "^8.2.0"
+  },
+  "dependencies": {
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.14.1"
   }
 }
